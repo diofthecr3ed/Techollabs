@@ -1,0 +1,252 @@
+@font-face {
+  font-family: montserrat-medium;
+  src: url(fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: light;
+  src: url(fonts/Montserrat-Light.ttf);
+}
+.header {
+    background-color: #11012f;
+    object-fit: cover;
+    font-family: 'montserrat-medium';
+    height: 90%;
+    width: 100%;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+  
+}
+.header-wrapper-box {
+  padding: 1.5% 8%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.main-header ul li {
+    margin: 42px 24px;
+    display: inline-block;
+}
+ul, li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.main-header {
+    position: absolute;
+    padding: 0 90px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+.main-header {
+    position: absolute;
+    padding: 0 90px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+.links a{
+  color: white;
+  margin-right:  40px;
+color: white;font-size: 110%;
+}
+.menu{
+  margin-right: 200px;
+}
+.logo{
+  width: 40%;
+}
+.links a:hover{
+  text-decoration: none;
+}
+@media only screen and (max-width: 1200px){
+.header-wrapper-box .menu {
+    margin-right: 0px;
+        margin-left: 25%;
+}}
+
+#logotext:hover{
+  text-decoration: none;
+}
+button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+}
+ .slide:hover, .slide:focus {
+   box-shadow: inset 11.5em 0 0 0 var(--hover);
+}
+
+
+ .slide {
+   --color: #ffffff;
+   --hover: #9900ff;
+}
+
+ button {
+   color: var(--color);
+   transition: 0.25s;
+}
+ button:hover, button:focus {
+   border-color: var(--hover);
+   color: #fff;
+}
+
+.container{
+  color: white;
+  padding: 6% 1% 13% 1%;
+  
+}
+.content-box h1{
+  line-height: 64px;
+  font-size: 50px;
+  width: 50%;
+}
+.content-box h5{
+  
+  font-family: 'light';
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.container2 {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  height: 5vh;
+}
+ .chevron {
+   position: absolute;
+   width: 2.1rem;
+   height: 0.48rem;
+   opacity: 0;
+   transform: scale(0.3);
+   animation: move-chevron 3s ease-out infinite;
+}
+ .chevron:first-child {
+   animation: move-chevron 3s ease-out 1s infinite;
+}
+ .chevron:nth-child(2) {
+   animation: move-chevron 3s ease-out 2s infinite;
+}
+ .chevron:before, .chevron:after {
+   content: '';
+   position: absolute;
+   top: 0;
+   height: 100%;
+   width: 50%;
+   background: #ffffff;
+}
+ .chevron:before {
+   left: 0;
+   transform: skewY(30deg);
+}
+ .chevron:after {
+   right: 0;
+   width: 50%;
+   transform: skewY(-30deg);
+}
+ @keyframes move-chevron {
+   25% {
+     opacity: 1;
+  }
+   33.3% {
+     opacity: 1;
+     transform: translateY(2.28rem);
+  }
+   66.6% {
+     opacity: 1;
+     transform: translateY(3.12rem);
+  }
+   100% {
+     opacity: 0;
+     transform: translateY(4.8rem) scale(0.5);
+  }
+}
+#scroll-end{
+  height: 2000px;
+  width: 100%;
+
+}
+#logotext{
+  
+  color: white;text-transform: uppercase;font-size: 140%;vertical-align: middle;
+}
+@media only screen and (max-width: 990px){
+.header {
+        background-position: -679px;
+    background-color: #11012f;
+    object-fit: cover;
+    font-family: 'montserrat-medium';
+    height: 90%;
+    width: 100%;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  
+}
+.logo{
+  width: 100%;
+  padding-top: 20px;
+  text-align: center;
+
+}
+#logotext{
+  
+  color: white;text-transform: uppercase;font-size: 340%;vertical-align: middle;
+}
+.header-wrapper-box {
+  padding: 0%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+    flex-wrap: wrap;
+}
+.scroll-nav{
+  padding-top: 30px;
+  
+  justify-content: center;
+}
+.content-box h1 {
+    line-height: 34px;
+    font-size: 20px;
+    width: 90%;
+
+}
+.links a {
+    color: white;
+    margin: 0px 10px 0px 10px;
+    color: white;
+    font-size: 110%;
+}
+.content-box h5{
+  font-size: 15px;
+  font-family: 'light';
+}
+button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0em;
+  padding: 1em 2em;
+  margin-left: 75%;
+  margin-top: 20px;
+}
+.container {
+    color: white;
+    padding: 13% 10% 23% 10%;
+}
+}
