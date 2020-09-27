@@ -72,7 +72,7 @@ color: white;font-size: 110%;
 @media only screen and (max-width: 1200px){
 .header-wrapper-box .menu {
     margin-right: 0px;
-        margin-left: 25%;
+     
 }}
 
 #logotext:hover{
@@ -186,6 +186,13 @@ html {
     background-size: cover;
     
 }
+#scroll-end2{
+	height: auto;
+	padding-bottom: 50px;
+	width: 100%;
+	background-color: white;
+    
+}
 #logotext{
 	
 	color: white;text-transform: uppercase;font-size: 140%;vertical-align: middle;
@@ -215,6 +222,7 @@ html {
 	color: white;text-transform: uppercase;font-size: 340%;vertical-align: middle;
 }
 .header-wrapper-box {
+	flex-direction: column;
 	padding: 0%;
     position: relative;
     display: flex;
@@ -250,7 +258,7 @@ button {
   line-height: 1;
   margin: 0em;
   padding: 1em 2em;
-  margin-left: 75%;
+
   margin-top: 20px;
 }
 .container {
@@ -367,3 +375,61 @@ button {
 .fa{
 	font-size: 300%; 
 }
+@media only screen and (max-width: 1024px){
+	#scroll-end{
+	height: auto;
+	padding-bottom: 50px;
+	width: 100%;
+	background-image: url(bg12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -150px;
+    
+}
+}
+
+
+
+
+
+
+
+::selection{
+	background-color:  white;
+	color: #11012f;
+}
+
+
+
+.footer-heading{
+	padding-bottom: 5px;
+	border-bottom: 2px solid white;
+}
+
+
+
+
+
+
+.footer-row{
+	margin-top: 20px;
+	padding: 0px 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
