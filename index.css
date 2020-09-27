@@ -395,7 +395,7 @@ button {
 
 
 ::selection{
-	background-color:  white;
+	background-color:  pink;
 	color: #11012f;
 }
 
@@ -417,7 +417,10 @@ button {
 }
 
 
+.fade {
 
+  opacity: 1;
+}
 
 
 
