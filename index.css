@@ -423,16 +423,27 @@ button {
 }
 
 
+.card-title{
+	font-family: 'regular';
+	margin-bottom: 0px;
+}
 
 
+.card{
+	margin-bottom: 15px;
+	border:none;
+}
+
+.card-img-top{
+	height: 100%;
+	width: 100%;
+}
 
 
-
-
-
-
-
-
-
-
-
+.display-4{
+	font-family: 'regular';
+}
+.stats{
+	font-family: 'montserrat-medium';
+	margin-top: 20px;
+}
