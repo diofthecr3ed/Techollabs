@@ -431,10 +431,19 @@ button {
 
 .card{
 	margin-bottom: 15px;
-	border:none;
-}
+	border:none !important;
+	width: 96%;
+	
 
+}
+.card-body{
+	background-color: white;
+	color: black;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
 .card-img-top{
+
 	height: 100%;
 	width: 100%;
 }
@@ -445,5 +454,24 @@ button {
 }
 .stats{
 	font-family: 'montserrat-medium';
-	margin-top: 20px;
+	margin-top: 20px;}
+.member{
+
+	border:0.5px solid #fff !important;
+	
+}
+.body{
+	background-color: #11012f;
+	color: white;
+		border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+		
+}
+.first-row{
+	margin-top: 50px;	
+}	
+.light{
+	font-size: 18px;
 }
