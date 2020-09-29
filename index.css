@@ -475,3 +475,9 @@ button {
 .light{
 	font-size: 18px;
 }
+
+@media only screen and (max-width: 990px){
+	.first-row{
+	margin-top: 0px;	
+}	
+}
